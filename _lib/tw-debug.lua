@@ -23,7 +23,7 @@
 --]]
 
 local inspect = require("vendors/inspect")
-local inspectOptions = { depth = 4 }
+local inspectOptions = { depth = 8 }
 
 local LIP = require("vendors/LIP")
 

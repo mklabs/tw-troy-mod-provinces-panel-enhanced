@@ -1,4 +1,20 @@
 
+local function destroyComponent(component)
+    if not component then
+        return
+    end
+
+    local root = core:get_ui_root()
+    local dummy = find_uicomponent(root, 'DummyComponent')
+    if not dummy then
+        root:CreateComponent("DummyComponent", "UI/campaign ui/script_dummy")        
+    end
+    
+    local gc = UIComponent(root:Find("DummyComponent"))
+    gc:Adopt(component:Address())
+    gc:DestroyChildren()
+end
+
 local function trim(s)
     return s:match'^%s*(.*%S)' or ''
 end
@@ -44,5 +60,6 @@ end
 return {
     trim = trim,
     split = split,
+    destroyComponent = destroyComponent,
     _ = _
 }
