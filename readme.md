@@ -10,3 +10,8 @@ Download from Steam Workshop: ...
 
 ## Changelog
 
+#### 1.0.1 (2021-09-17)
+
+##### New Features
+
+*  Update pack for 1.6 version of the game ([5a950358](https://github.com/mklabs/tw-troy-mod-provinces-panel-enhanced/commit/5a9503587ad626fa1a325166fe3dbc6e64115bd3))
