@@ -1,6 +1,6 @@
 {
   "name": "tw-troy-mod-provinces-panel-enhanced",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UI Mod to adjust the Province Panel with information about Influences, Edicts and Highest Building Level in your owned provinces and regions.",
   "main": "index.js",
   "scripts": {
